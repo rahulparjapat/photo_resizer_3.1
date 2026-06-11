@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  
+  --color-navy-50: #f0f4f8;
+  --color-navy-100: #d9e2ec;
+  --color-navy-500: #334e68;
+  --color-navy-700: #243b53;
+  --color-navy-800: #102a43;
+  --color-navy-900: #0a1b2a;
+
+  --color-saffron-400: #fbd38d;
+  --color-saffron-500: #f6ad55;
+  --color-saffron-600: #ed8936;
+  --color-saffron-700: #dd6b20;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    @apply bg-slate-50 text-slate-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+
+
