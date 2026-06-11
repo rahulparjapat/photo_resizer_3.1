@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host
+Host: https://govtexamresizer.com
+
+# Sitemap
+Sitemap: https://govtexamresizer.com/sitemap.xml
